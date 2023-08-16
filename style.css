@@ -1,13 +1,17 @@
-h2 {
+links {
     font-family: monospace;
     text-align: center;
     background-color: #2b2b2b;
     color: white;
+    font-size: 2em
   }
 
-h3 {
-    font-family: monospace;
-    text-align: center;
-    background-color: #2b2b2b;
-    color: white;
-  }
+
+
+links:hover {
+    color: lavenderblush
+}
+
+links:active {
+    color: mediumaquamarine
+}
