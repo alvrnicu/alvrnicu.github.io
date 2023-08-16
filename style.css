@@ -2,6 +2,16 @@ html {
     font-size: 100%;
 }
 
+.background {
+    background-image: url("https://github.com/alvrnicu/myImages/blob/main/Professional%20Headshot%20Smaller.png?raw=true");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 200px;
+    height: 225px;
+    border: solid 2px black;
+  }
+
 .links {
     font-family: monospace;
     text-align: center;
