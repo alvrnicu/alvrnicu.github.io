@@ -12,6 +12,14 @@ html {
     border: solid 2px black;
   }
 
+button {
+    color:antiquewhite;
+    background-color:#383838;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+  }
+
 .links {
     font-family: monospace;
     text-align: center;
