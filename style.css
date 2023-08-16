@@ -38,3 +38,18 @@ html {
     display: block;
     text-decoration: none;
   }
+
+.navbar:visited {
+    color: turquoise;
+  }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+#dark-button {
+    color: #grey;
+    border: solid;
+    border-width: 2px;
+  }
