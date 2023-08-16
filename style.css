@@ -28,36 +28,8 @@ button {
     font-size: 2em
   }
 
-.navbar {
-    list-style-type: none;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: black;
-    z-index: 100;
-  }
-
-#nav .navbar {
-    background-color: #101010;
-  }
-  
-.navbar:any-link {
-    display: block;
-    text-decoration: none;
-  }
-
-.navbar:visited {
-    color: turquoise;
-  }
-
-.dark-mode {
-    background-color: black;
-    color: white;
-  }
-
-#dark-button {
-    color: #grey;
-    border: solid;
-    border-width: 2px;
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #efefef;
   }
