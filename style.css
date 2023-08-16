@@ -1,24 +1,73 @@
 html {
-    font-size: 100%;
+  display: table;
+  margin: auto;
 }
 
-.background {
-    background-image: url("https://github.com/alvrnicu/myImages/blob/main/Professional%20Headshot%20Smaller.png?raw=true");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    width: 200px;
-    height: 225px;
-    border: solid 2px black;
-  }
+body {
+  display: table-cell;
+  background-color: lavender;
+  width: 100%;
+}
+
+a:link {
+  color:black
+}
+
+a:hover {
+  color: turquoise  
+}
+a:active {
+  color: black
+}
+
+.bio-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
 button {
-    color:antiquewhite;
-    background-color:#383838;
+    color: black;
     height: 100%;
-    width: 100%;
+    max-width: 30%;
     z-index: 100;
+    margin: 5px;
   }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.column {
+  float: left;
+  padding: 5px;
+}
+
+.center-text {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.headshot {
+  border-radius: 80%;
+  width: 400px;
+  height: 500px;
+  border: solid 3px #2b2b2b;
+  text-align: center;
+}
+
+.headshot:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+hr {
+  width: 100%;
+}
 
 .links {
     font-family: monospace;
@@ -28,8 +77,34 @@ button {
     font-size: 2em
   }
 
-nav {
-    display: flex;
-    justify-content: center;
-    background-color: #efefef;
-  }
+.navbar {
+  list-style-type: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: lavendar;
+  z-index: 100;
+}
+
+#nav .navbar {
+  background-color: lavender;
+}
+
+.navbar:any-link {
+  display: block;
+  text-decoration: none;
+}
+
+.navbar:visited {
+  color: turquoise;
+}
+
+li {
+  display: table;
+  margin: 0 auto;
+}
+
+#bio {
+  text-align: center;
+}
