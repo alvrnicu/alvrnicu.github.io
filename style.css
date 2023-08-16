@@ -2,7 +2,7 @@ html {
     font-size: 100%;
 }
 
-links {
+.links {
     font-family: monospace;
     text-align: center;
     background-color: #2b2b2b;
@@ -10,12 +10,21 @@ links {
     font-size: 2em
   }
 
+.navbar {
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 100;
+  }
 
-
-links:hover {
-    color: lavenderblush
-}
-
-links:active {
-    color: mediumaquamarine
-}
+#nav .navbar {
+    background-color: #101010;
+  }
+  
+.navbar:any-link {
+    display: block;
+    text-decoration: none;
+  }
